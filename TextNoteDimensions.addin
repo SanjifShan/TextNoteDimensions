@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>TextNoteDimensionsCommand</Name>
+		<FullClassName>TextNoteDimensions.Command</FullClassName>
+		<Text>TextNote Dimensions</Text>
+		<Description>Returns TextNote Dimensions in a TextNote object placed at a user selected point</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>C:\Users\sanji\ProBIM\TextNote\TextNoteDimensions\bin\Debug\TextNoteDimensions.dll</Assembly>
+		<AddInId>502fe383-2648-4e98-adf8-5e6047f9dc69</AddInId>
+		<VendorId>ProBIM</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>TextNoteDimensionsApplication</Name>
+		<Assembly>C:\Users\sanji\ProBIM\TextNote\TextNoteDimensions\bin\Debug\TextNoteDimensions.dll</Assembly>>
+		<AddInId>604b1052-f742-4951-8576-c261d1993108</AddInId>
+		<FullClassName>TextNoteDimensions.App</FullClassName>
+		<VendorId>ProBIM</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
